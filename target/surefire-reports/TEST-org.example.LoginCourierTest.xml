@@ -1,0 +1,2167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.LoginCourierTest" time="63.835" tests="8" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\QA_project\Sprint_3\target\test-classes;C:\QA_project\Sprint_3\target\classes;C:\Users\79168\.m2\repository\io\qameta\allure\allure-junit4\2.15.0\allure-junit4-2.15.0.jar;C:\Users\79168\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\79168\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\79168\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\79168\.m2\repository\io\qameta\allure\allure-rest-assured\2.15.0\allure-rest-assured-2.15.0.jar;C:\Users\79168\.m2\repository\io\qameta\allure\allure-attachments\2.15.0\allure-attachments-2.15.0.jar;C:\Users\79168\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\79168\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\79168\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\79168\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\79168\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\79168\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\79168\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\79168\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\79168\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\79168\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\79168\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\79168\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\79168\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\79168\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\79168\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\79168\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\79168\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\79168\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\79168\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\79168\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\79168\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\79168\.m2\repository\org\mockito\mockito-core\3.12.4\mockito-core-3.12.4.jar;C:\Users\79168\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.13\byte-buddy-agent-1.11.13.jar;C:\Users\79168\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\79168\.m2\repository\net\bytebuddy\byte-buddy\1.11.16\byte-buddy-1.11.16.jar;C:\Users\79168\.m2\repository\com\thegoate\restassured\0.15.8.202203012210\restassured-0.15.8.202203012210.jar;C:\Users\79168\.m2\repository\com\github\dzieciou\testing\curl-logger\2.0.1\curl-logger-2.0.1.jar;C:\Users\79168\.m2\repository\com\thegoate\kernel\0.15.8.202203012210\kernel-0.15.8.202203012210.jar;C:\Users\79168\.m2\repository\org\atteo\classindex\classindex\3.11\classindex-3.11.jar;C:\Users\79168\.m2\repository\com\thegoate\rest\0.15.8.202203012210\rest-0.15.8.202203012210.jar;C:\Users\79168\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.0\jackson-databind-2.13.0.jar;C:\Users\79168\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.0\jackson-annotations-2.13.0.jar;C:\Users\79168\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.0\jackson-core-2.13.0.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.13_8\bin"/>
+    <property name="sun.java.command" value="C:\Users\79168\AppData\Local\Temp\surefire1628439778037686089\surefirebooter14965667223830120219.jar C:\Users\79168\AppData\Local\Temp\surefire1628439778037686089 2022-04-10T13-59-30_246-jvmRun1 surefire2923766540967606910tmp surefire_016432189065757648654tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\QA_project\Sprint_3\target\test-classes;C:\QA_project\Sprint_3\target\classes;C:\Users\79168\.m2\repository\io\qameta\allure\allure-junit4\2.15.0\allure-junit4-2.15.0.jar;C:\Users\79168\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\79168\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\79168\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\79168\.m2\repository\io\qameta\allure\allure-rest-assured\2.15.0\allure-rest-assured-2.15.0.jar;C:\Users\79168\.m2\repository\io\qameta\allure\allure-attachments\2.15.0\allure-attachments-2.15.0.jar;C:\Users\79168\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\79168\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\79168\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\79168\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\79168\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\79168\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\79168\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\79168\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\79168\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\79168\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\79168\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\79168\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\79168\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\79168\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\79168\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\79168\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\79168\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\79168\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\79168\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\79168\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\79168\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\79168\.m2\repository\org\mockito\mockito-core\3.12.4\mockito-core-3.12.4.jar;C:\Users\79168\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.13\byte-buddy-agent-1.11.13.jar;C:\Users\79168\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\79168\.m2\repository\net\bytebuddy\byte-buddy\1.11.16\byte-buddy-1.11.16.jar;C:\Users\79168\.m2\repository\com\thegoate\restassured\0.15.8.202203012210\restassured-0.15.8.202203012210.jar;C:\Users\79168\.m2\repository\com\github\dzieciou\testing\curl-logger\2.0.1\curl-logger-2.0.1.jar;C:\Users\79168\.m2\repository\com\thegoate\kernel\0.15.8.202203012210\kernel-0.15.8.202203012210.jar;C:\Users\79168\.m2\repository\org\atteo\classindex\classindex\3.11\classindex-3.11.jar;C:\Users\79168\.m2\repository\com\thegoate\rest\0.15.8.202203012210\rest-0.15.8.202203012210.jar;C:\Users\79168\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.0\jackson-databind-2.13.0.jar;C:\Users\79168\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.0\jackson-annotations-2.13.0.jar;C:\Users\79168\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.0\jackson-core-2.13.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="C:\QA_project\Sprint_3\target/allure-results"/>
+    <property name="user.home" value="C:\Users\79168"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk11.0.13_8"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\QA_project\Sprint_3"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\79168\AppData\Local\Temp\surefire1628439778037686089\surefirebooter14965667223830120219.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.13+8-LTS"/>
+    <property name="user.name" value="79168"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.13.8.1"/>
+    <property name="localRepository" value="C:\Users\79168\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\79168\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.3"/>
+    <property name="java.version" value="11.0.13"/>
+    <property name="user.dir" value="C:\QA_project\Sprint_3"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.13_8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Amazon Corretto\jdk11.0.13_8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Sennheiser\SenncomSDK\;C:\Users\79168\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Amazon Corretto\jdk11.0.13_8\bin;C:\Users\79168\Desktop\Yandex_practicum\apache-maven-3.8.4\bin;C:\WebDriver\bin;C:\YandexPracticumSoftwware\allure-2.17.3\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.13+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testCourierAuthWithRequiredFields" classname="org.example.LoginCourierTest" time="0.137"/>
+  <testcase name="testCourierLogin" classname="org.example.LoginCourierTest" time="0.483"/>
+  <testcase name="testLoginCourierReturnId" classname="org.example.LoginCourierTest" time="0.483"/>
+  <testcase name="testSystemErrorWithIncorrectPassword" classname="org.example.LoginCourierTest" time="0.511"/>
+  <testcase name="testNonExistUser" classname="org.example.LoginCourierTest" time="0.51"/>
+  <testcase name="testAuthWithNullField" classname="org.example.LoginCourierTest" time="0.54"/>
+  <testcase name="testSystemErrorWithIncorrectLogin" classname="org.example.LoginCourierTest" time="0.578"/>
+  <testcase name="testSystemErrorWithNullValuePassword" classname="org.example.LoginCourierTest" time="60.593">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;504&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <504>.
+
+	at org.example.LoginCourierTest.testSystemErrorWithNullValuePassword(LoginCourierTest.java:204)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "firstName": "VjvoiYoKIi"
+}
+Request method:	POST
+Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "firstName": "VjvoiYoKIi"
+}
+Request method:	POST
+Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "firstName": "VjvoiYoKIi"
+}
+Request method:	POST
+Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "firstName": "VjvoiYoKIi"
+}
+Request method:	POST
+Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "firstName": "VjvoiYoKIi"
+}
+Request method:	POST
+Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "firstName": "VjvoiYoKIi"
+}
+Request method:	POST
+Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "firstName": "VjvoiYoKIi"
+}
+Request method:	POST
+Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "firstName": "VjvoiYoKIi"
+}
+Request method:	POST
+Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "firstName": "VjvoiYoKIi"
+}
+Request method:	POST
+Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "firstName": "VjvoiYoKIi"
+}
+Request method:	POST
+Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "firstName": "VjvoiYoKIi"
+}
+Request method:	POST
+Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "firstName": "VjvoiYoKIi"
+}
+Request method:	POST
+Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "firstName": "VjvoiYoKIi"
+}
+Request method:	POST
+Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "firstName": "VjvoiYoKIi"
+}
+Request method:	POST
+Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "firstName": "VjvoiYoKIi"
+}
+Request method:	POST
+Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "firstName": "VjvoiYoKIi"
+}
+Request method:	POST
+Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "firstName": "VjvoiYoKIi"
+}
+Request method:	POST
+Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "firstName": "VjvoiYoKIi"
+}
+Request method:	POST
+Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "firstName": "VjvoiYoKIi"
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=qEVx+qLD4eEGC3pQ8SMXsZGXljwcHJ9JIvRETX43bTCmig==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386554392-7586790056070595317
+
+{
+    "ok": true
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=qEVx+qLD4eEGC3pQ8SMXsZGXljwcHJ9JIvRETX43bTCmig==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386554392-7586790056070595317
+
+{
+    "ok": true
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=qEVx+qLD4eEGC3pQ8SMXsZGXljwcHJ9JIvRETX43bTCmig==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386554392-7586790056070595317
+
+{
+    "ok": true
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=qEVx+qLD4eEGC3pQ8SMXsZGXljwcHJ9JIvRETX43bTCmig==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386554392-7586790056070595317
+
+{
+    "ok": true
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=qEVx+qLD4eEGC3pQ8SMXsZGXljwcHJ9JIvRETX43bTCmig==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386554392-7586790056070595317
+
+{
+    "ok": true
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=qEVx+qLD4eEGC3pQ8SMXsZGXljwcHJ9JIvRETX43bTCmig==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386554392-7586790056070595317
+
+{
+    "ok": true
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=qEVx+qLD4eEGC3pQ8SMXsZGXljwcHJ9JIvRETX43bTCmig==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386554392-7586790056070595317
+
+{
+    "ok": true
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=qEVx+qLD4eEGC3pQ8SMXsZGXljwcHJ9JIvRETX43bTCmig==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386554392-7586790056070595317
+
+{
+    "ok": true
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=qEVx+qLD4eEGC3pQ8SMXsZGXljwcHJ9JIvRETX43bTCmig==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386554392-7586790056070595317
+
+{
+    "ok": true
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=qEVx+qLD4eEGC3pQ8SMXsZGXljwcHJ9JIvRETX43bTCmig==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386554392-7586790056070595317
+
+{
+    "ok": true
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=qEVx+qLD4eEGC3pQ8SMXsZGXljwcHJ9JIvRETX43bTCmig==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386554392-7586790056070595317
+
+{
+    "ok": true
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=qEVx+qLD4eEGC3pQ8SMXsZGXljwcHJ9JIvRETX43bTCmig==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386554392-7586790056070595317
+
+{
+    "ok": true
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=qEVx+qLD4eEGC3pQ8SMXsZGXljwcHJ9JIvRETX43bTCmig==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386554392-7586790056070595317
+
+{
+    "ok": true
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=qEVx+qLD4eEGC3pQ8SMXsZGXljwcHJ9JIvRETX43bTCmig==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386554392-7586790056070595317
+
+{
+    "ok": true
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=qEVx+qLD4eEGC3pQ8SMXsZGXljwcHJ9JIvRETX43bTCmig==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386554392-7586790056070595317
+
+{
+    "ok": true
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=qEVx+qLD4eEGC3pQ8SMXsZGXljwcHJ9JIvRETX43bTCmig==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386554392-7586790056070595317
+
+{
+    "ok": true
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=qEVx+qLD4eEGC3pQ8SMXsZGXljwcHJ9JIvRETX43bTCmig==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386554392-7586790056070595317
+
+{
+    "ok": true
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=qEVx+qLD4eEGC3pQ8SMXsZGXljwcHJ9JIvRETX43bTCmig==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386554392-7586790056070595317
+
+{
+    "ok": true
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=qEVx+qLD4eEGC3pQ8SMXsZGXljwcHJ9JIvRETX43bTCmig==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386554392-7586790056070595317
+
+{
+    "ok": true
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": "gvxTYJROzA",
+    "id": 0
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"c-98uYEMm53dibbP3DxJlZ5cCJt1A"
+Set-Cookie: _yasc=uxnugGZYKaQPmQJ8TNJDTNTQAhxr3zC4fG3G8pQ9Hbc3dw==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386705526-9695792935260017880
+
+{
+    "id": 54164
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"c-98uYEMm53dibbP3DxJlZ5cCJt1A"
+Set-Cookie: _yasc=uxnugGZYKaQPmQJ8TNJDTNTQAhxr3zC4fG3G8pQ9Hbc3dw==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386705526-9695792935260017880
+
+{
+    "id": 54164
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"c-98uYEMm53dibbP3DxJlZ5cCJt1A"
+Set-Cookie: _yasc=uxnugGZYKaQPmQJ8TNJDTNTQAhxr3zC4fG3G8pQ9Hbc3dw==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386705526-9695792935260017880
+
+{
+    "id": 54164
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"c-98uYEMm53dibbP3DxJlZ5cCJt1A"
+Set-Cookie: _yasc=uxnugGZYKaQPmQJ8TNJDTNTQAhxr3zC4fG3G8pQ9Hbc3dw==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386705526-9695792935260017880
+
+{
+    "id": 54164
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"c-98uYEMm53dibbP3DxJlZ5cCJt1A"
+Set-Cookie: _yasc=uxnugGZYKaQPmQJ8TNJDTNTQAhxr3zC4fG3G8pQ9Hbc3dw==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386705526-9695792935260017880
+
+{
+    "id": 54164
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"c-98uYEMm53dibbP3DxJlZ5cCJt1A"
+Set-Cookie: _yasc=uxnugGZYKaQPmQJ8TNJDTNTQAhxr3zC4fG3G8pQ9Hbc3dw==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386705526-9695792935260017880
+
+{
+    "id": 54164
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"c-98uYEMm53dibbP3DxJlZ5cCJt1A"
+Set-Cookie: _yasc=uxnugGZYKaQPmQJ8TNJDTNTQAhxr3zC4fG3G8pQ9Hbc3dw==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386705526-9695792935260017880
+
+{
+    "id": 54164
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"c-98uYEMm53dibbP3DxJlZ5cCJt1A"
+Set-Cookie: _yasc=uxnugGZYKaQPmQJ8TNJDTNTQAhxr3zC4fG3G8pQ9Hbc3dw==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386705526-9695792935260017880
+
+{
+    "id": 54164
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"c-98uYEMm53dibbP3DxJlZ5cCJt1A"
+Set-Cookie: _yasc=uxnugGZYKaQPmQJ8TNJDTNTQAhxr3zC4fG3G8pQ9Hbc3dw==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386705526-9695792935260017880
+
+{
+    "id": 54164
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"c-98uYEMm53dibbP3DxJlZ5cCJt1A"
+Set-Cookie: _yasc=uxnugGZYKaQPmQJ8TNJDTNTQAhxr3zC4fG3G8pQ9Hbc3dw==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386705526-9695792935260017880
+
+{
+    "id": 54164
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"c-98uYEMm53dibbP3DxJlZ5cCJt1A"
+Set-Cookie: _yasc=uxnugGZYKaQPmQJ8TNJDTNTQAhxr3zC4fG3G8pQ9Hbc3dw==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386705526-9695792935260017880
+
+{
+    "id": 54164
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"c-98uYEMm53dibbP3DxJlZ5cCJt1A"
+Set-Cookie: _yasc=uxnugGZYKaQPmQJ8TNJDTNTQAhxr3zC4fG3G8pQ9Hbc3dw==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386705526-9695792935260017880
+
+{
+    "id": 54164
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"c-98uYEMm53dibbP3DxJlZ5cCJt1A"
+Set-Cookie: _yasc=uxnugGZYKaQPmQJ8TNJDTNTQAhxr3zC4fG3G8pQ9Hbc3dw==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386705526-9695792935260017880
+
+{
+    "id": 54164
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"c-98uYEMm53dibbP3DxJlZ5cCJt1A"
+Set-Cookie: _yasc=uxnugGZYKaQPmQJ8TNJDTNTQAhxr3zC4fG3G8pQ9Hbc3dw==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386705526-9695792935260017880
+
+{
+    "id": 54164
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"c-98uYEMm53dibbP3DxJlZ5cCJt1A"
+Set-Cookie: _yasc=uxnugGZYKaQPmQJ8TNJDTNTQAhxr3zC4fG3G8pQ9Hbc3dw==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386705526-9695792935260017880
+
+{
+    "id": 54164
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"c-98uYEMm53dibbP3DxJlZ5cCJt1A"
+Set-Cookie: _yasc=uxnugGZYKaQPmQJ8TNJDTNTQAhxr3zC4fG3G8pQ9Hbc3dw==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386705526-9695792935260017880
+
+{
+    "id": 54164
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"c-98uYEMm53dibbP3DxJlZ5cCJt1A"
+Set-Cookie: _yasc=uxnugGZYKaQPmQJ8TNJDTNTQAhxr3zC4fG3G8pQ9Hbc3dw==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386705526-9695792935260017880
+
+{
+    "id": 54164
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"c-98uYEMm53dibbP3DxJlZ5cCJt1A"
+Set-Cookie: _yasc=uxnugGZYKaQPmQJ8TNJDTNTQAhxr3zC4fG3G8pQ9Hbc3dw==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386705526-9695792935260017880
+
+{
+    "id": 54164
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 10:59:46 GMT
+ETag: W/"c-98uYEMm53dibbP3DxJlZ5cCJt1A"
+Set-Cookie: _yasc=uxnugGZYKaQPmQJ8TNJDTNTQAhxr3zC4fG3G8pQ9Hbc3dw==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588386705526-9695792935260017880
+
+{
+    "id": 54164
+}
+54164
+Кейс: система вернёт ошибку, если  не указать логин или пароль
+Указываем - пароль = NULL
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": null,
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": null,
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": null,
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": null,
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": null,
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": null,
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": null,
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": null,
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": null,
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": null,
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": null,
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": null,
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": null,
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": null,
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": null,
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": null,
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": null,
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": null,
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": null,
+    "id": 0
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "wPkjAmYKKv",
+    "password": null,
+    "id": 0
+}
+HTTP/1.1 504 Gateway time out
+Content-Length: 19
+Set-Cookie: _yasc=Ap5Bt5FEbvc5nRoZvjzW7T7Icf9VdJo+WQzNYeI7qYw6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Request-Id: 1649588386859433-15770048623803870614
+
+Service unavailable
+HTTP/1.1 504 Gateway time out
+Content-Length: 19
+Set-Cookie: _yasc=Ap5Bt5FEbvc5nRoZvjzW7T7Icf9VdJo+WQzNYeI7qYw6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Request-Id: 1649588386859433-15770048623803870614
+
+Service unavailable
+HTTP/1.1 504 Gateway time out
+Content-Length: 19
+Set-Cookie: _yasc=Ap5Bt5FEbvc5nRoZvjzW7T7Icf9VdJo+WQzNYeI7qYw6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Request-Id: 1649588386859433-15770048623803870614
+
+Service unavailable
+HTTP/1.1 504 Gateway time out
+Content-Length: 19
+Set-Cookie: _yasc=Ap5Bt5FEbvc5nRoZvjzW7T7Icf9VdJo+WQzNYeI7qYw6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Request-Id: 1649588386859433-15770048623803870614
+
+Service unavailable
+HTTP/1.1 504 Gateway time out
+Content-Length: 19
+Set-Cookie: _yasc=Ap5Bt5FEbvc5nRoZvjzW7T7Icf9VdJo+WQzNYeI7qYw6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Request-Id: 1649588386859433-15770048623803870614
+
+Service unavailable
+HTTP/1.1 504 Gateway time out
+Content-Length: 19
+Set-Cookie: _yasc=Ap5Bt5FEbvc5nRoZvjzW7T7Icf9VdJo+WQzNYeI7qYw6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Request-Id: 1649588386859433-15770048623803870614
+
+Service unavailable
+HTTP/1.1 504 Gateway time out
+Content-Length: 19
+Set-Cookie: _yasc=Ap5Bt5FEbvc5nRoZvjzW7T7Icf9VdJo+WQzNYeI7qYw6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Request-Id: 1649588386859433-15770048623803870614
+
+Service unavailable
+HTTP/1.1 504 Gateway time out
+Content-Length: 19
+Set-Cookie: _yasc=Ap5Bt5FEbvc5nRoZvjzW7T7Icf9VdJo+WQzNYeI7qYw6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Request-Id: 1649588386859433-15770048623803870614
+
+Service unavailable
+HTTP/1.1 504 Gateway time out
+Content-Length: 19
+Set-Cookie: _yasc=Ap5Bt5FEbvc5nRoZvjzW7T7Icf9VdJo+WQzNYeI7qYw6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Request-Id: 1649588386859433-15770048623803870614
+
+Service unavailable
+HTTP/1.1 504 Gateway time out
+Content-Length: 19
+Set-Cookie: _yasc=Ap5Bt5FEbvc5nRoZvjzW7T7Icf9VdJo+WQzNYeI7qYw6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Request-Id: 1649588386859433-15770048623803870614
+
+Service unavailable
+HTTP/1.1 504 Gateway time out
+Content-Length: 19
+Set-Cookie: _yasc=Ap5Bt5FEbvc5nRoZvjzW7T7Icf9VdJo+WQzNYeI7qYw6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Request-Id: 1649588386859433-15770048623803870614
+
+Service unavailable
+HTTP/1.1 504 Gateway time out
+Content-Length: 19
+Set-Cookie: _yasc=Ap5Bt5FEbvc5nRoZvjzW7T7Icf9VdJo+WQzNYeI7qYw6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Request-Id: 1649588386859433-15770048623803870614
+
+Service unavailable
+HTTP/1.1 504 Gateway time out
+Content-Length: 19
+Set-Cookie: _yasc=Ap5Bt5FEbvc5nRoZvjzW7T7Icf9VdJo+WQzNYeI7qYw6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Request-Id: 1649588386859433-15770048623803870614
+
+Service unavailable
+HTTP/1.1 504 Gateway time out
+Content-Length: 19
+Set-Cookie: _yasc=Ap5Bt5FEbvc5nRoZvjzW7T7Icf9VdJo+WQzNYeI7qYw6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Request-Id: 1649588386859433-15770048623803870614
+
+Service unavailable
+HTTP/1.1 504 Gateway time out
+Content-Length: 19
+Set-Cookie: _yasc=Ap5Bt5FEbvc5nRoZvjzW7T7Icf9VdJo+WQzNYeI7qYw6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Request-Id: 1649588386859433-15770048623803870614
+
+Service unavailable
+HTTP/1.1 504 Gateway time out
+Content-Length: 19
+Set-Cookie: _yasc=Ap5Bt5FEbvc5nRoZvjzW7T7Icf9VdJo+WQzNYeI7qYw6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Request-Id: 1649588386859433-15770048623803870614
+
+Service unavailable
+HTTP/1.1 504 Gateway time out
+Content-Length: 19
+Set-Cookie: _yasc=Ap5Bt5FEbvc5nRoZvjzW7T7Icf9VdJo+WQzNYeI7qYw6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Request-Id: 1649588386859433-15770048623803870614
+
+Service unavailable
+HTTP/1.1 504 Gateway time out
+Content-Length: 19
+Set-Cookie: _yasc=Ap5Bt5FEbvc5nRoZvjzW7T7Icf9VdJo+WQzNYeI7qYw6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Request-Id: 1649588386859433-15770048623803870614
+
+Service unavailable
+HTTP/1.1 504 Gateway time out
+Content-Length: 19
+Set-Cookie: _yasc=Ap5Bt5FEbvc5nRoZvjzW7T7Icf9VdJo+WQzNYeI7qYw6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Request-Id: 1649588386859433-15770048623803870614
+
+Service unavailable
+HTTP/1.1 504 Gateway time out
+Content-Length: 19
+Set-Cookie: _yasc=Ap5Bt5FEbvc5nRoZvjzW7T7Icf9VdJo+WQzNYeI7qYw6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 10:59:46 GMT; secure
+X-Request-Id: 1649588386859433-15770048623803870614
+
+Service unavailable
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/54164
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/54164
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/54164
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/54164
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/54164
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/54164
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/54164
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/54164
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/54164
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/54164
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/54164
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/54164
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/54164
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/54164
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/54164
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/54164
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/54164
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/54164
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/54164
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/54164
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 11:00:47 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=T+SUBCfosWV9CZR5yE9fNPMqDtobieOSSczru6iPNnu6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 11:00:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588446977782-14324235847559533066
+
+{
+    "ok": true
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 11:00:47 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=T+SUBCfosWV9CZR5yE9fNPMqDtobieOSSczru6iPNnu6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 11:00:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588446977782-14324235847559533066
+
+{
+    "ok": true
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 11:00:47 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=T+SUBCfosWV9CZR5yE9fNPMqDtobieOSSczru6iPNnu6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 11:00:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588446977782-14324235847559533066
+
+{
+    "ok": true
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 11:00:47 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=T+SUBCfosWV9CZR5yE9fNPMqDtobieOSSczru6iPNnu6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 11:00:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588446977782-14324235847559533066
+
+{
+    "ok": true
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 11:00:47 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=T+SUBCfosWV9CZR5yE9fNPMqDtobieOSSczru6iPNnu6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 11:00:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588446977782-14324235847559533066
+
+{
+    "ok": true
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 11:00:47 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=T+SUBCfosWV9CZR5yE9fNPMqDtobieOSSczru6iPNnu6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 11:00:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588446977782-14324235847559533066
+
+{
+    "ok": true
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 11:00:47 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=T+SUBCfosWV9CZR5yE9fNPMqDtobieOSSczru6iPNnu6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 11:00:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588446977782-14324235847559533066
+
+{
+    "ok": true
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 11:00:47 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=T+SUBCfosWV9CZR5yE9fNPMqDtobieOSSczru6iPNnu6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 11:00:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588446977782-14324235847559533066
+
+{
+    "ok": true
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 11:00:47 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=T+SUBCfosWV9CZR5yE9fNPMqDtobieOSSczru6iPNnu6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 11:00:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588446977782-14324235847559533066
+
+{
+    "ok": true
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 11:00:47 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=T+SUBCfosWV9CZR5yE9fNPMqDtobieOSSczru6iPNnu6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 11:00:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588446977782-14324235847559533066
+
+{
+    "ok": true
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 11:00:47 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=T+SUBCfosWV9CZR5yE9fNPMqDtobieOSSczru6iPNnu6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 11:00:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588446977782-14324235847559533066
+
+{
+    "ok": true
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 11:00:47 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=T+SUBCfosWV9CZR5yE9fNPMqDtobieOSSczru6iPNnu6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 11:00:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588446977782-14324235847559533066
+
+{
+    "ok": true
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 11:00:47 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=T+SUBCfosWV9CZR5yE9fNPMqDtobieOSSczru6iPNnu6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 11:00:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588446977782-14324235847559533066
+
+{
+    "ok": true
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 11:00:47 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=T+SUBCfosWV9CZR5yE9fNPMqDtobieOSSczru6iPNnu6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 11:00:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588446977782-14324235847559533066
+
+{
+    "ok": true
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 11:00:47 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=T+SUBCfosWV9CZR5yE9fNPMqDtobieOSSczru6iPNnu6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 11:00:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588446977782-14324235847559533066
+
+{
+    "ok": true
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 11:00:47 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=T+SUBCfosWV9CZR5yE9fNPMqDtobieOSSczru6iPNnu6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 11:00:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588446977782-14324235847559533066
+
+{
+    "ok": true
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 11:00:47 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=T+SUBCfosWV9CZR5yE9fNPMqDtobieOSSczru6iPNnu6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 11:00:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588446977782-14324235847559533066
+
+{
+    "ok": true
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 11:00:47 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=T+SUBCfosWV9CZR5yE9fNPMqDtobieOSSczru6iPNnu6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 11:00:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588446977782-14324235847559533066
+
+{
+    "ok": true
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 11:00:47 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=T+SUBCfosWV9CZR5yE9fNPMqDtobieOSSczru6iPNnu6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 11:00:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588446977782-14324235847559533066
+
+{
+    "ok": true
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Content-Type: application/json; charset=utf-8
+Date: Sun, 10 Apr 2022 11:00:47 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=T+SUBCfosWV9CZR5yE9fNPMqDtobieOSSczru6iPNnu6Tg==; domain=.praktikum-services.ru; path=/; expires=Tue, 10-May-2022 11:00:46 GMT; secure
+X-Powered-By: Express
+X-Request-Id: 1649588446977782-14324235847559533066
+
+{
+    "ok": true
+}
+Удалил курьера(After метод) id = 54164
+200
+----------------------------------------------------------------
+]]></system-out>
+  </testcase>
+</testsuite>
